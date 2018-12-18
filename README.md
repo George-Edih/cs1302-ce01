@@ -8,13 +8,12 @@ a Unix system from the command line.
 
 * An introduction to Unix: http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
 * Unix Tutorial One, Two, Three, and Four: http://www.ee.surrey.ac.uk/Teaching/Unix
-* Installing necessary command line tools to your machine (homebrew for mac, _FIX AND MAYBE USE LINK_
 
 ## Creating Directories
 
 By the end of this exercise, you will have a directory hierarchy similar to 
 the one seen below. You will use a variety of Unix commands to create this 
-heirarchy step-by-step. 
+heirarchy step-by-step.
 
 ```
 exercise1
@@ -36,7 +35,8 @@ exercise1
 
 ## Questions
 
-In your notes, clearly answer the following questions.
+In your notes, clearly answer the following questions. These instructions assume that you have setup
+your local machine following the instructions linked to on eLC and the syllabus.
 
 1. When you launch your terminal emulator, what is the absolute path of the directory it places you 
    in? What command can you use to figure it out?
