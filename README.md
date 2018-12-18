@@ -28,9 +28,9 @@ exercise1
  |                  |---day1.txt
  |                  |---names.txt
  |--- lit_works
- |      |--- dogs
+ |      |--- 48320-0.txt
 
-9 directories, 3 files
+8 directories, 4 files
 ```
 
 ## Questions
@@ -94,4 +94,25 @@ your local machine following the instructions linked to on eLC and the syllabus.
 
 * **CHECKPOINT**
 
-16. 
+16. In your web browser of choice, visit
+    [Project Gutenberg](https://www.gutenberg.org/) and find the `Plain Text UTF-8` version of the 
+    _Adventures of Sherlock Holmes_ by Sir Arthur Conan Doyle. Use the `wget` command to download 
+    this file into the `lit_works` directory. How many lines, words, and bytes are in this file?
+
+17. As you might suspect, the name "Sherlock" (case sensitive) appears on many lines in this file. 
+    What command can be used to display only these lines to standard output? 
+
+18. What command can be used to output the number of lines containing the name "Sherlock" 
+    (case sensitive)?
+
+19. Consider your response to the previous two question. What commands can be used to output
+    the number of lines containing both the word "Sherlock" (case sensitive) and "Watson"
+    (case sensitive)?
+
+20. **[TRICKY]** What command can be used to count the number of lines in this file that
+    contain the name "Sherlock" with any capitalization other than "Sherlock"? For example, 
+    "sHerlock", "sherlock", "sherLOCK", etc. are examples of capitalizations that are not
+    literally "Sherlock".
+
+* **CHECKPOINT**
+
