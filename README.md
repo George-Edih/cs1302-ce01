@@ -30,7 +30,7 @@ exercise1
  |--- lit_works
  |      |--- dogs
 
-9 directories, 2 files
+9 directories, 3 files
 ```
 
 ## Questions
