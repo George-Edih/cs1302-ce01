@@ -7,7 +7,7 @@ a Unix system from the command line.
 ## Prerequisite Knowledge
 
 * An introduction to Unix: http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
-* Unix Tutorial One, Two, and Three: http://www.ee.surrey.ac.uk/Teaching/Unix
+* Unix Tutorial One, Two, Three, and Four: http://www.ee.surrey.ac.uk/Teaching/Unix
 * Installing necessary command line tools to your machine (homebrew for mac, _FIX AND MAYBE USE LINK_
 
 ## Creating Directories
