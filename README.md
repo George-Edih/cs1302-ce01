@@ -12,8 +12,8 @@ a Unix system from the command line.
 
 ## Creating Directories
 
-By the end of this exericse, you will have a directory hierary similar to the
-one seen below. You will use a variety of Unix commands to create this 
+By the end of this exercise, you will have a directory hierarchy similar to 
+the one seen below. You will use a variety of Unix commands to create this 
 heirarchy step-by-step. 
 
 ```
@@ -33,7 +33,7 @@ exercise1
 9 directories, 2 files
 ```
 
-##Questions
+## Questions
 * Give the full Unix command to create the `notes` directory 
 (under school/1302) if your present working directory (pwd) is `exercise1`?
 * Give the full Unix command to return to your home directory if your pwd 
