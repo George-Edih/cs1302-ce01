@@ -11,12 +11,21 @@ a Unix system from the command line.
 
 ## Before You Begin
 
-If you have access to your Nike account, then you may login and perform the exercise there.
-Otherwise, you may perform the exercise on your local machine.
-In either case, you must have completed one of the setup instructions provided below before you begin.
+You should complete one of the setup instructions provided below before you begin.
 
 * MacOS Setup Instructions: https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/MacOS.md
 * Windows 10 Setup Instructions: https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/Windows10.md
+
+If you have access to your Nike account, then you may login and perform the exercise there.
+Otherwise, you may perform the exercise on your local machine. To login to Nike, open up a local
+terminal in your terminal emulator and type the following command, replacing `user` with the
+Nike username provided to you by System Support:
+
+```
+ssh user@nike.cs.uga.edu
+```
+
+**NOTE:** The `ssh` program does not display your password as you type.
 
 ## Creating Directories
 
