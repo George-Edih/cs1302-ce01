@@ -22,7 +22,7 @@ terminal in your terminal emulator and type the following command, replacing `us
 Nike username provided to you by System Support:
 
 ```
-ssh user@nike.cs.uga.edu
+$ ssh user@nike.cs.uga.edu
 ```
 
 **NOTE:** The `ssh` program does not display your password as you type it when logging in.
