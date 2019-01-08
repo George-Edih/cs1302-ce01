@@ -9,6 +9,15 @@ a Unix system from the command line.
 * An introduction to Unix: http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
 * Unix Tutorial One, Two, Three, and Four: http://www.ee.surrey.ac.uk/Teaching/Unix
 
+## Before You Begin
+
+If you have access to your Nike account, then you may login and perform the exercise there.
+Otherwise, you may perform the exercise on your local machine.
+In either case, you must have completed one of the setup instructions provided below before you begin.
+
+* MacOS Setup Instructions: https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/MacOS.md
+* Windows 10 Setup Instructions: 
+
 ## Creating Directories
 
 By the end of this exercise, you will have a directory hierarchy similar to 
