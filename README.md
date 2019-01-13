@@ -123,7 +123,7 @@ your local machine following the instructions linked to on eLC and the syllabus.
 18. What command can be used to output the number of lines containing the name "Sherlock" 
     (case sensitive)?
 
-19. Consider your response to the previous two question. What commands can be used to output
+19. Consider your response to the previous two questions. What commands can be used to output
     the number of lines containing both the word "Sherlock" (case sensitive) and "Watson"
     (case sensitive)?
 
