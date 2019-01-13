@@ -99,12 +99,12 @@ your local machine following the instructions linked to on eLC and the syllabus.
     to `day1.txt`.
 
 12. Change into the `exercise1` directory. What command can be used to copy `day1.txt` to
-    `names.txt` into the `school` directory?
+    `names.txt` into the `notes` directory?
 
 13. Assume you are still in the `exercise1` directory. What command(s) can be used to verify that
     you actually copied the file in the previous question to the desired location?
 
-14. Change to the `cs1302` directory. What command can be used to copy the entire contents of the 
+14. Change to the `1302` directory. What command can be used to copy the entire contents of the 
     `notes` directory directly into the `exercise1` directory?
 
 15. Now that you have two `.txt` files inside of the `exercise1` directory. What single command
