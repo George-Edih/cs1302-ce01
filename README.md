@@ -87,7 +87,7 @@ your local machine following the instructions linked to on eLC and the syllabus.
    about it?
 
 9. Change into the `notes` directory. What command(s) can be used to add your group's first and 
-   last names to a regular file called `day.txt` in the present working directory?
+   last names to a regular file called `day1.txt` in the present working directory?
 
 10. Assume you are still in the `notes` directory. There are a couple different commands that can 
     be used to display the contents of a file. Give two commands that can be used to verify that 
