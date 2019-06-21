@@ -9,6 +9,10 @@ a Unix system from the command line.
 * An introduction to Unix: http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
 * Unix Tutorial One, Two, Three, and Four: http://www.ee.surrey.ac.uk/Teaching/Unix
 
+## Course Specific Learning Outcomes
+
+* LO1.a: Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
+
 ## Before You Begin
 
 You should complete one of the setup instructions provided below before you begin.
