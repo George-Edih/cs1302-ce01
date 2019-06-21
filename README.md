@@ -11,7 +11,7 @@ a Unix system from the command line.
 
 ## Course-Specific Learning Outcomes
 
-* LO1.a: Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
+* **LO1.a:** Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
 
 ## Before You Begin
 
