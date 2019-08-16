@@ -120,20 +120,20 @@ class notes will serve as a helpful study guide for the exam.
 
 **CHECKPOINT**
 
-1. Assume you are still in the `notes` directory. What command can be used to rename `day.txt`
-   to `day1.txt`.
-
-1. Change into the `exercise1` directory. What command can be used to copy `day1.txt` to
-   `names.txt` into the `notes` directory?
+1. If you are elsewhere, change into the `notes` directory. Rename `day.txt` to `day1.txt`. Write the
+   command you used in your notes.
+   
+1. Change into the `exercise1` directory. Without changing directories, copy `day1.txt` to `names.txt`.
+   Both files should now be contained in `notes`.
 
 1. Assume you are still in the `exercise1` directory. What command(s) can be used to verify that
    you actually copied the file in the previous question to the desired location?
 
-1. Change to the `1302` directory. What command can be used to copy the entire contents of the 
-   `notes` directory directly into the `exercise1` directory?
+1. Change to the `1302` directory. Without changing directories, copy the entire contents of the 
+   `notes` directory into the `exercise1` directory? Write the command you used in your notes. Verify
+   that the two text files now exist in both locations.
 
-1. Now that you have two `.txt` files inside of the `exercise1` directory. What single command
-   can be used to delete both of them?
+1. Assume you are still in the `1302` directory. What single command both text files in `exercise1`.
 
 **CHECKPOINT**
 
