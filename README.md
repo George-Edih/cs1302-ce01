@@ -66,6 +66,13 @@ action happen along with an explanation of why that command worked. Some command
 It is important to not only recall what you typed but also why you typed each of them. If done properly, your 
 class notes will serve as a helpful study guide for the exam. 
 
+1. Carefully read the following:
+
+   > If at any point while working through this exercise, you encounter an error message. Don't worry. Carefully 
+   > read and process the error message to see what went wrong. In some cases, the error messages are expected
+   > and we want you to use them as a hint. If, however,  the error message doesn't make sense or you 
+   > can't figure out how to proceed, raise your hand and an instructor or TA will be around shortly.
+
 1. When you launch your terminal emulator, what is the absolute path of the directory it places you 
    in? What command can you use to figure it out?
 
@@ -92,19 +99,24 @@ class notes will serve as a helpful study guide for the exam.
 1. If you are elsewhere, change into the `exercise1` directory. Use the `rmdir` command to remove (delete)
    the `school`, `1302`, and `notes` directories. Write and describe all commands used in your notes.
    
-1. **[TRICKY]** If you are elsewhere, change into the `exercise1` directory. What _single command_ 
-   can be used to create the `school`, `1302`, and `notes` directories? You will need to first remove 
-   these directories to verify that your command works correctly.
+1. If you are elsewhere, change into the `exercise1` directory. Attempt to recreate the directories you
+   just removed with the single command `mkdir school/1302/notes`. Note the error message received. It is
+   possible to create all three directories with a single command. Use the `man` command
+   to learn more about the `mkdir` options that are available and determine which option needs to
+   be placed between `mkdir` and `school/1302/notes` to make this work. Execute the modified command
+   and verify that all three directories have been created.
 
 1. The `echo` command is a pretty popular Unix command. What command can be used to learn more
    about it?
 
-1. Change into the `notes` directory. What command(s) can be used to add your group's first and 
-   last names to a regular file called `day.txt` in the present working directory?
+1. Change into the `notes` directory. Use `echo` and output redirection to add the first and last name
+   of one group member to a regular file called `day.txt` in the present working directory. Verify
+   that the file contains the desired text without using a text editor. Note the command(s) used.
 
-1. Assume you are still in the `notes` directory. There are a couple different commands that can 
-   be used to display the contents of a file. Give two commands that can be used to verify that 
-   your group's first and last names are actually in `day.txt'. 
+1. Use `echo` and output redirection to add the first and last name of a different group member to 
+   `day.txt` without overwriting the first group member's name. Verify that the file now contains 
+   **both** names. If only the one name appears, repeat the last step and try again. Once the contents
+   of the file are correct, note the command(s) used with an explanation of why those commands worked.
 
 **CHECKPOINT**
 
