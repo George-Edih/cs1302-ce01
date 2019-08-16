@@ -137,6 +137,9 @@ class notes will serve as a helpful study guide for the exam.
 
 **CHECKPOINT**
 
+1. Change to the `exercise1` directory, create the `lit_works` subdirectory, and change your present
+   working diretory to `lit_works`.
+
 1. In your web browser of choice, visit
    [Project Gutenberg](https://www.gutenberg.org/) and find the `Plain Text UTF-8` version of the 
    _Adventures of Sherlock Holmes_ by Sir Arthur Conan Doyle. Use the `wget` command to download 
@@ -145,17 +148,18 @@ class notes will serve as a helpful study guide for the exam.
 1. As you might suspect, the name "Sherlock" (case sensitive) appears on many lines in this file. 
    What command can be used to display only these lines to standard output? 
 
-1. What command can be used to output the number of lines containing the name "Sherlock" 
-   (case sensitive)?
+1. What single command can be used to output the number of lines containing the name "Sherlock" 
+   (case sensitive)? Hint: Your answer may need to use pipes.
 
 1. Consider your response to the previous two questions. What commands can be used to output
    the number of lines containing both the word "Sherlock" (case sensitive) and "Watson"
-   (case sensitive)?
+   (case sensitive)? Hint: Your answer may need to use pipes.
 
 1. **[TRICKY]** What command can be used to count the number of lines in this file that
    contain the name "Sherlock" with any capitalization other than "Sherlock"? For example, 
    "sHerlock", "sherlock", "sherLOCK", etc. are examples of capitalizations that are not
-   literally "Sherlock".
+   literally "Sherlock". Hint: you may want to look at options in the `man` pages for a 
+   hint.
 
 **CHECKPOINT**
 
