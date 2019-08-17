@@ -25,14 +25,14 @@ You should complete one of the setup instructions provided below before you begi
 
 If you have access to your Nike account, then you may login and perform the exercise there.
 Otherwise, you may perform the exercise on your local machine. To login to Nike, open up a local
-terminal in your terminal emulator and type the following command, replacing `user` with the
-Nike username provided to you by System Support:
+terminal in your terminal emulator and type command below, replacing `user` with the
+Nike username provided to you by System Support.
+
+**NOTE:** The `ssh` program does not display your password as you type it when logging in.
 
 ```
 $ ssh user@nike.cs.uga.edu
 ```
-
-**NOTE:** The `ssh` program does not display your password as you type it when logging in.
 
 ## Creating Directories
 
