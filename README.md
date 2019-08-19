@@ -135,7 +135,8 @@ class notes will serve as a helpful study guide for the exam.
    `notes` directory into the `exercise1` directory? Write the command you used in your notes. Verify
    that the two text files now exist in both locations.
 
-1. Assume you are still in the `1302` directory. What single command both text files in `exercise1`.
+1. Assume you are still in the `1302` directory. What single command can be used to display both text 
+   files in `exercise1`.
 
 **CHECKPOINT**
 
