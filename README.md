@@ -1,6 +1,6 @@
 # ce01 Unix Commands
 
-![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
 This exercise is designed to get you acquainted with basic Unix commands.
 You will create regular files and directory files and learn how to navigate 
