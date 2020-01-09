@@ -159,11 +159,16 @@ class notes will serve as a helpful study guide for the exam.
    the number of lines containing both the word "Sherlock" (case sensitive) and "Watson"
    (case sensitive)? Hint: Your answer may need to use pipes.
 
+1. What command can be used to count the number of lines in this file that
+   contain the name "Sherlock" with any capitalization (case insensitive)?
+   Hint: you may want to look at options in the `man` pages for a 
+   hint.
+   
 1. **[TRICKY]** What command can be used to count the number of lines in this file that
    contain the name "Sherlock" with any capitalization other than "Sherlock"? For example, 
    "sHerlock", "sherlock", "sherLOCK", etc. are examples of capitalizations that are not
-   literally "Sherlock". Hint: you may want to look at options in the `man` pages for a 
-   hint.
+   literally "Sherlock". Hint: you may need to look up additional options in the `man`
+   pages.
 
 **CHECKPOINT**
 
