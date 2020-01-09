@@ -42,7 +42,8 @@ heirarchy step-by-step.
 
 ```
 exercise1
- |--- README.txt
+ |--- day1.txt
+ |--- notes.txt
  |--- photos
  |      |--- 2017
  |      |--- 2018
@@ -135,7 +136,7 @@ class notes will serve as a helpful study guide for the exam.
    `notes` directory into the `exercise1` directory? Write the command you used in your notes. Verify
    that the two text files now exist in both locations.
 
-1. Assume you are still in the `1302` directory. What single command can be used to display both text 
+1. Assume you are still in the `1302` directory. What single command can be used to delete both text 
    files in `exercise1`.
 
 **CHECKPOINT**
