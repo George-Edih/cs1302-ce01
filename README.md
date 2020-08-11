@@ -31,7 +31,8 @@ Odin can be found here: [Odin Setup](https://github.com/cs1302uga/cs1302-exercis
 
 By the end of this exercise, you will have a directory hierarchy similar to 
 the one seen below. You will use a variety of Unix commands to create this 
-heirarchy step-by-step. **NOTE:** you do not need to create this hierarchy before moving on.
+heirarchy step-by-step. **NOTE: you should not create this hierarchy before moving on.** We provide the heirarchy
+here so you can reference it as you work and to show where we are headed.
 
 ```
 exercise1
