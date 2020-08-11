@@ -36,8 +36,7 @@ here so you can reference it as you work and to show where we are headed.
 
 ```
 exercise1
- |--- day1.txt
- |--- notes.txt
+ |--- SUBMISSION.md
  |--- photos
  |      |--- 2017
  |      |--- 2018
@@ -69,10 +68,10 @@ class notes will serve as a helpful study guide for the exam.
 
 1. Carefully read the following:
 
-   > If at any point while working through this exercise, you encounter an error message. Don't worry. Carefully 
+   > If at any point while working through this exercise, you encounter an error message, don't worry. Carefully 
    > read and process the error message to see what went wrong. In some cases, the error messages are expected
-   > and we want you to use them as a hint. If, however,  the error message doesn't make sense or you 
-   > can't figure out how to proceed, raise your hand and an instructor or TA will be around shortly.
+   > and we want you to use them as a hint. If, however, the error message doesn't make sense or you 
+   > can't figure out how to proceed, your instructor or a TA will be glad to help out.
 
 1. When you launch your terminal emulator, what is the absolute path of the directory it places you 
    in? What command can you use to figure it out?
@@ -89,8 +88,8 @@ class notes will serve as a helpful study guide for the exam.
    directory? Go ahead and execute the command to navigate to `exercise1`.
 
 1. Your present working directory (pwd) should be `exercise1`. From this directory, without changing into other
-   directories, what series of commands can be used to create the `school`, `1302`, and `notes` directories? 
-
+   directories (your answer should not use `cd`), what series of commands can be used to create the `school`, 
+   `1302`, and `notes` directories? 
 
 <hr/>
 
@@ -118,8 +117,9 @@ class notes will serve as a helpful study guide for the exam.
    about it?
 
 1. Change into the `notes` directory. Use `echo` and output redirection to add the first and last name
-   of one group member to a regular file called `day.txt` in the present working directory. Verify
-   that the file contains the desired text without using a text editor. Note the command(s) used.
+   of one group member (or just your name if you are not working in a group) to a regular file called 
+   `day.txt` in the present working directory. Verify that the file contains the desired text **without 
+   using a text editor**. Note the command(s) used.
 
 1. Use `echo` and output redirection to add the first and last name of a different group member to 
    `day.txt` without overwriting the first group member's name. Verify that the file now contains 
@@ -137,18 +137,19 @@ class notes will serve as a helpful study guide for the exam.
 1. If you are elsewhere, change into the `notes` directory. Rename `day.txt` to `day1.txt`. Write the
    command you used in your notes.
    
-1. Change into the `exercise1` directory. Without changing directories, copy `day1.txt` to `names.txt`.
-   Both files should now be contained in `notes`.
+1. Change into the `exercise1` directory. Without changing directories again, copy `day1.txt` to `names.txt`.
+   Both files should now be contained in the `notes` directory.
 
 1. Assume you are still in the `exercise1` directory. What command(s) can be used to verify that
    you actually copied the file in the previous question to the desired location?
 
-1. Change to the `1302` directory. Without changing directories, copy the entire contents of the 
-   `notes` directory into the `exercise1` directory? Write the command you used in your notes. Verify
+1. Change to the `1302` directory. Without changing directories again, copy the entire contents of the 
+   `notes` directory into the `exercise1` directory. Write the command you used in your notes. Verify
    that the two text files now exist in both locations.
 
 1. Assume you are still in the `1302` directory. What single command can be used to delete both text 
-   files in `exercise1`.
+   files located in the `exercise1` directory? Execute the command to delete both text files from `exercise1`.
+   They should now be located in the `notes` directory only.
 
 <hr/>
 
@@ -197,29 +198,38 @@ class notes will serve as a helpful study guide for the exam.
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside this exercise
+1. Create a plain text file called `SUBMISSION.md` directly inside the `exercise1`
    directory with the following information:
 
    1. Your name and UGA ID number;
    1. Collaborator names, if any; and
-   1. The weekly code (listed with the exercise on eLC).
+   1. The answers to the questions in steps 2 - 7 in Checkpoint 4.
    
-   Here is an example:
+   Here is an example of the contents of `SUBMISSION.md`. You would need to write actual answers for Q2-Q7:
    
    ```
    1. Sally Smith (811-000-999)
    2. Collaborators: Joe Allen, Stacie Mack
-   3. Weekly Code: replace-with-actual-code
+   3. Q2: ...
+      Q3: ...
+      Q4: ...
+      Q5: ...
+      Q6: ...
+      Q7: ...
    ```
 
-1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
-   passes the `checkstyle` audit, then stage and commit all changes.
-
-1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
+1. Change into the parent directory of `exercise1` and use the `submit` command to submit this exercise to `cs1302a`:
    
    ```
-   $ submit cs1302-ce27-ce28 cs1302a
+   $ submit exercise1 cs1302a
    ```
+   
+   Read the output of the submit command very carefuly. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
      
 <hr/>
 
