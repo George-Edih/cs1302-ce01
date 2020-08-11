@@ -8,8 +8,8 @@ a Unix system from the command line.
 
 ## Prerequisite Knowledge
 
-* An introduction to Unix: http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
-* Unix Tutorial One, Two, Three, and Four: http://www.ee.surrey.ac.uk/Teaching/Unix
+* [An introduction to Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
+* [Unix Tutorial One, Two, Three, and Four](http://www.ee.surrey.ac.uk/Teaching/Unix)
 
 ## Course-Specific Learning Outcomes
 
@@ -18,27 +18,20 @@ a Unix system from the command line.
 
 ## Before You Begin
 
-You should complete one of the setup instructions provided below before you begin.
+If you haven't done so already, you should complete one of the setup instructions provided below before you begin.
 
-* MacOS Setup Instructions: https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/MacOS.md
-* Windows 10 Setup Instructions: https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/Windows10.md
+* [MacOS Setup Instructions](https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/MacOS.md)
+* [Windows 10 Setup Instructions](https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/Windows10.md)
 
-If you have access to your Nike account, then you may login and perform the exercise there.
-Otherwise, you may perform the exercise on your local machine. To login to Nike, open up a local
-terminal in your terminal emulator and type command below, replacing `user` with the
-Nike username provided to you by System Support.
-
-**NOTE:** The `ssh` program does not display your password as you type it when logging in.
-
-```
-$ ssh user@nike.cs.uga.edu
-```
+If you have access to your Odin account, then you may login and perform the exercise there.
+Otherwise, you may perform the exercise on your local machine. Instructions for logging into
+Odin can be found here: [Odin Setup](https://github.com/cs1302uga/cs1302-exercises/blob/master/misc/OdinSetup.md)
 
 ## Creating Directories
 
 By the end of this exercise, you will have a directory hierarchy similar to 
 the one seen below. You will use a variety of Unix commands to create this 
-heirarchy step-by-step.
+heirarchy step-by-step. **NOTE:** you do not need to create this hierarchy before moving on.
 
 ```
 exercise1
@@ -69,6 +62,10 @@ action happen along with an explanation of why that command worked. Some command
 It is important to not only recall what you typed but also why you typed each of them. If done properly, your 
 class notes will serve as a helpful study guide for the exam. 
 
+## Exercise Steps
+
+### Checkpoint 1 Steps
+
 1. Carefully read the following:
 
    > If at any point while working through this exercise, you encounter an error message. Don't worry. Carefully 
@@ -93,7 +90,14 @@ class notes will serve as a helpful study guide for the exam.
 1. Your present working directory (pwd) should be `exercise1`. From this directory, without changing into other
    directories, what series of commands can be used to create the `school`, `1302`, and `notes` directories? 
 
-**CHECKPOINT**
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Your present working directory (pwd) should be `exercise1`. What series of commands can be used to
    verify that the directories in the previous question were successfully created? Assume that
@@ -121,7 +125,13 @@ class notes will serve as a helpful study guide for the exam.
    **both** names. If only the one name appears, repeat the last step and try again. Once the contents
    of the file are correct, note the command(s) used with an explanation of why those commands worked.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
 
 1. If you are elsewhere, change into the `notes` directory. Rename `day.txt` to `day1.txt`. Write the
    command you used in your notes.
@@ -139,7 +149,13 @@ class notes will serve as a helpful study guide for the exam.
 1. Assume you are still in the `1302` directory. What single command can be used to delete both text 
    files in `exercise1`.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 4 Steps
 
 1. Change to the `exercise1` directory, create the `lit_works` subdirectory, and change your present
    working diretory to `lit_works`.
@@ -170,7 +186,43 @@ class notes will serve as a helpful study guide for the exam.
    literally "Sherlock". Hint: you may need to look up additional options in the `man`
    pages.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-4-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside this exercise
+   directory with the following information:
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The weekly code (listed with the exercise on eLC).
+   
+   Here is an example:
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. Weekly Code: replace-with-actual-code
+   ```
+
+1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
+   passes the `checkstyle` audit, then stage and commit all changes.
+
+1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
+   
+   ```
+   $ submit cs1302-ce27-ce28 cs1302a
+   ```
+     
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
