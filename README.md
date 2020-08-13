@@ -224,7 +224,7 @@ class notes will serve as a helpful study guide for the exam.
    $ submit exercise1 cs1302a
    ```
    
-   Read the output of the submit command very carefuly. If there is an error while submitting, then it will displayed 
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
    in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
    submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
    Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
