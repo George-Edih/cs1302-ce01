@@ -221,7 +221,7 @@ class notes will serve as a helpful study guide for the exam.
 1. Change into the parent directory of `exercise1` and use the `submit` command to submit this exercise to `cs1302a`:
    
    ```
-   $ submit exercise1 cs1302a
+   $ submit exercise1 csci-1302
    ```
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
