@@ -47,7 +47,7 @@ exercise1
  |                  |---day1.txt
  |                  |---names.txt
  |--- lit_works
- |      |--- 48320-0.txt
+ |      |--- 1661-0.txt
 
 8 directories, 4 files
 ```
