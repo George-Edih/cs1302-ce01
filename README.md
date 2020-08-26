@@ -218,7 +218,7 @@ class notes will serve as a helpful study guide for the exam.
       Q7: ...
    ```
 
-1. Change into the parent directory of `exercise1` and use the `submit` command to submit this exercise to `cs1302a`:
+1. Change into the parent directory of `exercise1` and use the `submit` command to submit this exercise to `csci-1302`:
    
    ```
    $ submit exercise1 csci-1302
